@@ -13,8 +13,50 @@
 		height: 100%;
 		width: 100%;
 	}
+
+	#box{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#button {
+		width: 100%;
+		background-color: white; /* Green */
+  		border: 2px solid #ee4035;
+  		border-radius: 8px;
+  		color: white;
+  		padding: 15px 32px;
+  		text-align: center;
+  		text-decoration: none;
+  		display: inline-block;
+  		font-size: 40px;
+
+	}
+
+	#button:hover {
+		background-color: #ee4035;
+  		color: white;	
+	}
+
+	#siguiente {
+
+		color: black;
+		text-decoration: none;
+		font-family: times;
+	}
 </style>
+
 <body>
-	<img id = "imagen" src="Images/1.jpg">
+
+	<div><img id = "imagen" src="Images/1.jpg"></div>
+
+	<div id ="box">
+
+		<button type = "button" id ="button"> <a href="pagina_2.html" id = "siguiente"> SIGUIENTE </a></button>
+
+	</div>
+
+	
 </body>
 </html>
